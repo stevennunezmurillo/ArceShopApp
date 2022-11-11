@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegacion"
+    app:startDestination="@+id/navTiendaPrincipal">
+    <fragment
+        android:id="@+id/navTiendaPrincipal"
+        android:name="com.example.proyectomviles.ui.paginaTienda.PaginaTiendaFragment"
+        android:label="@string/navTienda"
+        tools:layout="@layout/fragment_pagina_tienda" />
+    <fragment
+        android:id="@+id/navUsuario"
+        android:name="com.example.proyectomviles.ui.usuarios.FragmentUsuarios"
+        android:label="@string/navUsuario"
+        tools:layout="@layout/fragment_usuarios" />
+    <fragment
+        android:id="@+id/navCarrito"
+        android:name="com.example.proyectomviles.ui.carrito.FragmentCarrito"
+        android:label="@string/navCarrito"
+        tools:layout="@layout/fragment_carrito" />
+</navigation>

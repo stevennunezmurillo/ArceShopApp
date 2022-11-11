@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Arce Shopping</string>
+    <string name="noInternet">No hay conexión a internet</string>
+    <string name="botonRetry">Intentar de nuevo</string>
+    <string name="botonDeslogin">Volver al menú de inicio</string>
+    <string-array name="Provincias">
+        <item>San José</item>
+        <item>Alajuela</item>
+        <item>Puntarenas</item>
+        <item>Heredia</item>
+        <item>Cartago</item>
+        <item>Limón</item>
+        <item>Guanacaste</item>
+    </string-array>
+    <string name="registro"><u>Registrarse</u></string>
+    <string name="Login"><u>Login</u></string>
+    <string name="calendar">Abrir</string>
+    <string name="MensajeInicio">Bienvenido a una nueva experiencia de compra</string>
+    <string name="appNombre">Arce Shop</string>
+    <string name="navTienda">Tienda</string>
+    <string name="navUsuario">Usuario</string>
+    <string name="navCarrito">Carrito</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textoInicio">Bienvenido a Arce Shopping App</string>
+</resources>
